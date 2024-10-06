@@ -431,7 +431,7 @@ class FormBuilder
      */
     public function date($name, $value = null, $options = [])
     {
-        if ($value instanceof DateTime) {
+       if ($value instanceof \DateTimeInterface) { //By changing the type check to DateTimeInterface, you ensure that the form field can accept both DateTime and Carbon instances.
             $value = $value->format('Y-m-d');
         }
 
@@ -467,7 +467,7 @@ class FormBuilder
      */
     public function datetimeLocal($name, $value = null, $options = [])
     {
-        if ($value instanceof DateTime) {
+        if ($value instanceof \DateTimeInterface) {
             $value = $value->format('Y-m-d\TH:i');
         }
 
@@ -517,7 +517,7 @@ class FormBuilder
      */
     public function week($name, $value = null, $options = [])
     {
-        if ($value instanceof DateTime) {
+        if ($value instanceof \DateTimeInterface) {
             $value = $value->format('Y-\WW');
         }
 
@@ -1036,7 +1036,7 @@ class FormBuilder
      */
     public function month($name, $value = null, $options = [])
     {
-        if ($value instanceof DateTime) {
+        if ($value instanceof \DateTimeInterface) {
             $value = $value->format('Y-m');
         }
 
