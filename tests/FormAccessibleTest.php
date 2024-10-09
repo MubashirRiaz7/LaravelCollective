@@ -27,6 +27,7 @@ class FormAccessibleTest extends PHPUnit\Framework\TestCase
           'address'    => [
               'street' => 'abcde st'
           ],
+            sarah
           'array'      => [1, 2, 3,],
           'transform_key' => 'testing testing',
           'created_at' => $this->now,
