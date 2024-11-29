@@ -1,16 +1,16 @@
 {
-    "name": "laravelcollective/html",
-    "description": "HTML and Form Builders for the Laravel Framework",
+    "name": "MubashirRiaz7/LaravelCollective",
+    "description": "HTML and Form Builders for the Laravel Framework - Forked from LaravelCollective",
     "license": "MIT",
-    "homepage": "https://laravelcollective.com",
+    "homepage": "https://github.com/MubashirRiaz7/LaravelCollective",
     "support": {
-        "issues": "https://github.com/LaravelCollective/html/issues",
-        "source": "https://github.com/LaravelCollective/html"
+        "issues": "https://github.com/MubashirRiaz7/LaravelCollective/issues",
+        "source": "https://github.com/MubashirRiaz7/LaravelCollective"
     },
     "authors": [
         {
-            "name": "Adam Engebretson",
-            "email": "adam@laravelcollective.com"
+            "name": "Mubashir Riaz",
+            "email": "mubashir@example.com"
         },
         {
             "name": "Taylor Otwell",
@@ -18,17 +18,17 @@
         }
     ],
     "require": {
-        "php": ">=7.2.5",
-        "illuminate/http": "^6.0|^7.0|^8.0|^9.0|^10.0",
-        "illuminate/routing": "^6.0|^7.0|^8.0|^9.0|^10.0",
-        "illuminate/session": "^6.0|^7.0|^8.0|^9.0|^10.0",
-        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
-        "illuminate/view": "^6.0|^7.0|^8.0|^9.0|^10.0"
+        "php": ">=8.1",
+        "illuminate/http": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "illuminate/routing": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "illuminate/session": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "illuminate/view": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
     },
     "require-dev": {
-        "illuminate/database": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "illuminate/database": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
         "mockery/mockery": "~1.0",
-        "phpunit/phpunit": "~8.5|^9.5.10"
+        "phpunit/phpunit": "^10.0"
     },
     "autoload": {
         "psr-4": {
@@ -53,6 +53,5 @@
         }
     },
     "minimum-stability": "dev",
-    "abandoned": "spatie/laravel-html",
     "prefer-stable": true
 }
